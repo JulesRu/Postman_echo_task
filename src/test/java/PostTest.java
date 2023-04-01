@@ -19,7 +19,7 @@ public class PostTest {
 // Проверки
                 .then()
                 .statusCode(200)
-                .body("data", equalTo("До свидания!"))
+                .body("data", equalTo("Здравствуйте!"))
         ;
     }
 }
